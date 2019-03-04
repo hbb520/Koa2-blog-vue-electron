@@ -1,0 +1,49 @@
+#people-container {
+
+  .article-left {
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-bottom: 0;
+    width: 865px;
+    min-height: 100vh;
+    .Card {
+      padding: 20px;
+    }
+    .avatar {
+      width: 200px;
+      height: 200px;
+    }
+    .ivu-form .ivu-form-item-label {
+      color: #444;
+      font-weight: 600;
+      font-size: 15px;
+    }
+    .ivu-form-item-content {
+      color: #444;
+      font-size: 15px;
+      line-height: 34px;
+    }
+    .post-right {
+      position: absolute;
+      right: 0;
+      width: 110px;
+      top: 10px;
+      text-align: left;
+      padding: 20px;
+      color: #bababa;
+      font-size: 12px;
+      div {
+        margin-bottom: 5px;
+      }
+      .icon {
+        position: relative;
+        top: 1px;
+        margin-right: 5px;
+      }
+    }
+    .page-box {
+      padding-bottom: 100px;
+    }
+  }
+
+}

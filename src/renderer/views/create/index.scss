@@ -1,0 +1,39 @@
+#create-container {
+  .article-left {
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-bottom: 0;
+    width: 865px;
+    min-height: 100vh;
+    .Card {
+      position: relative;
+      padding: 25px;
+      margin-bottom: 0;
+      box-shadow: none;
+    }
+    .Tag-box {
+      margin-top: 20px;
+      .my-tag {
+        margin-right: 15px;
+      }
+    }
+    .editor-box {
+      position: relative;
+      margin-top: 20px;
+      .ivu-upload-select {
+        position: absolute;
+        top: 30px;
+        right: 5px;
+        z-index: 1000;
+      }
+      .ivu-btn {
+        padding: 0px 3px;
+      }
+      .videoUpload {
+        .ivu-upload-select {
+          right: 70px;
+        }
+      }
+    }
+  }
+}

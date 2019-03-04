@@ -1,0 +1,12 @@
+/*可以在这里添加你自己的css*/
+.view {
+  padding: 0;
+  word-wrap: break-word;
+  cursor: text;
+  height: 90%;
+}
+/*防止图片超出*/
+img {
+  max-width: 100%;
+}
+
